@@ -15,7 +15,7 @@ First copy `.env.example` just run this command:
 cp .env.example .env
 ```
 
-Then yu need to open .env file and config database access `{db_username}` and `{db_username}` variables
+Then yu need to open `.env` file and config database access `{db_username}` and `{db_username}` variables
 
 ```python
 DB_CONNECTION=mysql
@@ -25,7 +25,8 @@ DB_DATABASE=contactos
 DB_USERNAME={db_username}
 DB_PASSWORD={db_password}
 ```
-After all configurations, now run the next command to get the correct versions from packages dependences
+
+After all configurations, now run the next command to get the correct versions from packages dependencies
 
 ```bash
 composer update
@@ -43,7 +44,7 @@ php php artisan migrate
 ```
 
 ## Run Seeders in the next order to populate datebase:
-Run the next command in the path of project:
+Run the next commands in the path of project:
 ```bash
 php artisan db:seed --class=ContactoSeeder
 ```
