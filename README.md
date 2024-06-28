@@ -32,7 +32,7 @@ composer update
 ```
 Then you can Install project whit command:
 ```bash
-comoposer install
+composer install
 ```
 
 
