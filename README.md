@@ -9,7 +9,23 @@
 
 
 ## Install REST API
-Run the next command to get the correct versions from packages dependences
+First copy `.env.example` just run this command:
+
+```bash
+cp .env.example .env
+```
+
+Then yu need to open .env file an config database access `{db_username}` and `{db_username}` variables
+
+```python
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=contactos
+DB_USERNAME={db_username}
+DB_PASSWORD={db_password}
+```
+After all configurations, now run the next command to get the correct versions from packages dependences
 
 ```bash
 composer update
