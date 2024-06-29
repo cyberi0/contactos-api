@@ -44,7 +44,7 @@ php php artisan migrate
 ```
 
 ## Run Seeders 
-You can run Seeders in the next order to populate datebase:
+You can run Seeders in the next order to make mock data in the Database:
 ```bash
 php artisan db:seed --class=ContactoSeeder
 ```
