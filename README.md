@@ -43,8 +43,8 @@ Run the next command in the path of project:
 php php artisan migrate
 ```
 
-## Run Seeders in the next order to populate datebase:
-Run the next commands in the path of project:
+## Run Seeders 
+You can run Seeders in the next order to populate datebase:
 ```bash
 php artisan db:seed --class=ContactoSeeder
 ```
