@@ -15,7 +15,7 @@ First copy `.env.example` just run this command:
 cp .env.example .env
 ```
 
-Then yu need to open `.env` file and config database access `{db_username}` and `{db_username}` variables
+Then you need to open `.env` file and config database access `{db_username}` and `{db_username}` variables
 
 ```python
 DB_CONNECTION=mysql
